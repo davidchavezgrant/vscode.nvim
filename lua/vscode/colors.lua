@@ -160,6 +160,7 @@ colors.get_colors = function()
     mycolors.punctuation = '#FFD174'
     mycolors.errorBack = '#450505'
     mycolors.warningBack = '#5E5339'
+    mycolors.default = '#DCDCDC'
 
     -- Extend the colors with overrides passed by `color_overrides`
     local config = require('vscode.config')
