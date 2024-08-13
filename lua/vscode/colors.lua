@@ -156,6 +156,7 @@ colors.get_colors = function()
     mycolors.vscUiBlue = '#084671'
     mycolors.vscUiOrange = '#f28b25'
     mycolors.vscPopupHighlightLightBlue = '#d7eafe'
+    mycolors.riderGreen = '#39CC8F'
 
     -- Extend the colors with overrides passed by `color_overrides`
     local config = require('vscode.config')
