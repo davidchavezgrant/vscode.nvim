@@ -161,7 +161,7 @@ colors.get_colors = function()
     mycolors.riderPurple = '#C191FF'
     mycolors.punctuation = '#FFD174'
     mycolors.errorBack = '#450505'
-    mycolors.warningBack = '#5E5339'
+    mycolors.warningBack = '#2F2D19'
     mycolors.default = '#DCDCDC'
     mycolors.monokaiPink = '#F92672'
 
