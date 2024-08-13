@@ -93,9 +93,9 @@ theme.set_highlights = function(opts)
 
     -- Treesitter
     hl(0, '@error', { fg = c.vscRed, bg = c.errorBack }) -- Legacy
-    hl(0, '@punctuation.bracket', { fg = c.vscFront, bg = 'NONE' })
-    hl(0, '@punctuation.special', { fg = c.vscFront, bg = 'NONE' })
-    hl(0, '@punctuation.delimiter', { fg = c.vscFront, bg = 'NONE' })
+    hl(0, '@punctuation.bracket', { fg = c.punctuation, bg = 'NONE' })
+    hl(0, '@punctuation.special', { fg = c.punctuation, bg = 'NONE' })
+    hl(0, '@punctuation.delimiter', { fg = c.punctuation, bg = 'NONE' })
     hl(0, '@comment', { fg = c.vscGreen, bg = 'NONE', italic = opts.italic_comments })
     hl(0, '@comment.note', { fg = c.vscBlueGreen, bg = 'NONE', bold = true })
     hl(0, '@comment.warning', { fg = c.vscYellowOrange, bg = c.warningBack, bold = true })
