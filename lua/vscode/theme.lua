@@ -469,15 +469,11 @@ theme.set_highlights = function(opts)
     hl(0, 'NvimTreeEmptyFolderName', { fg = c.vscGray, bg = 'NONE' })
     hl(0, 'NvimTreeFolderName', { fg = c.vscFront, bg = 'NONE' })
     hl(0, 'NvimTreeSpecialFile', { fg = c.vscPink, bg = 'NONE', underline = true })
-    hl(0, 'NvimTreeNormal', { fg = c.vscFront, bg = opts.disable_nvimtree_bg and c.vscBack or c.vscLeftDark })
-    hl(0, 'NvimTreeCursorLine', { fg = 'NONE', bg = opts.disable_nvimtree_bg and c.vscCursorDarkDark or c.vscLeftMid })
-    hl(0, 'NvimTreeVertSplit', { fg = opts.disable_nvimtree_bg and c.vscSplitDark or c.vscBack, bg = c.vscBack })
-    hl(0, 'NvimTreeEndOfBuffer', { fg = opts.disable_nvimtree_bg and c.vscCursorDarkDark or c.vscLeftDark })
-    hl(
-        0,
-        'NvimTreeOpenedFolderName',
-        { fg = 'NONE', bg = opts.disable_nvimtree_bg and c.vscCursorDarkDark or c.vscLeftDark }
-    )
+    --hl(0, 'NvimTreeNormal', { fg = c.vscFront, bg = opts.disable_nvimtree_bg and c.vscBack or c.vscLeftDark })
+    --hl(0, 'NvimTreeCursorLine', { fg = 'NONE', bg = opts.disable_nvimtree_bg and c.vscCursorDarkDark or c.vscLeftMid })
+    --hl(0, 'NvimTreeVertSplit', { fg = opts.disable_nvimtree_bg and c.vscSplitDark or c.vscBack, bg = c.vscBack })
+    --hl(0, 'NvimTreeEndOfBuffer', { fg = opts.disable_nvimtree_bg and c.vscCursorDarkDark or c.vscLeftDark })
+    --hl(0,'NvimTreeOpenedFolderName',{ fg = 'NONE', bg = opts.disable_nvimtree_bg and c.vscCursorDarkDark or c.vscLeftDark })
     hl(0, 'NvimTreeGitRenamed', { fg = c.vscGitRenamed, bg = 'NONE' })
     hl(0, 'NvimTreeGitIgnored', { fg = c.vscGitIgnored, bg = 'NONE' })
     hl(0, 'NvimTreeGitDeleted', { fg = c.vscGitDeleted, bg = 'NONE' })
@@ -487,8 +483,8 @@ theme.set_highlights = function(opts)
     hl(0, 'NvimTreeGitNew', { fg = c.vscGitAdded, bg = 'NONE' })
 
     -- Bufferline
-    hl(0, 'BufferLineIndicatorSelected', { fg = c.vscLeftDark, bg = 'NONE' })
-    hl(0, 'BufferLineFill', { fg = 'NONE', bg = opts.transparent and c.vscBack or c.vscLeftDark })
+    --hl(0, 'BufferLineIndicatorSelected', { fg = c.vscLeftDark, bg = 'NONE' })
+    --hl(0, 'BufferLineFill', { fg = 'NONE', bg = opts.transparent and c.vscBack or c.vscLeftDark })
 
     -- BarBar
     hl(0, 'BufferCurrent', { fg = c.vscFront, bg = c.vscTabCurrent })
