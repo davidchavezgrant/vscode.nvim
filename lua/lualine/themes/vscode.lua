@@ -6,8 +6,8 @@ local colors = {}
 
 if vim.o.background == 'dark' then
     colors.inactive = '#666666'
-    colors.bg = '#262626'
-    colors.bg2 = '#373737'
+    colors.bg = 'NONE'
+    colors.bg2 = 'NONE'
     colors.fg = '#ffffff'
     colors.red = '#f44747'
     colors.green = '#4EC9B0'
