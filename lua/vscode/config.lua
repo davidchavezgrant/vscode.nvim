@@ -2,7 +2,7 @@ local config = {}
 
 local defaults = {
     transparent = false,
-    italic_comments = false,
+    italic_comments = true,
     underline_links = false,
     color_overrides = {},
     group_overrides = {},

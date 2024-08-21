@@ -483,8 +483,8 @@ theme.set_highlights = function(opts)
     hl(0, 'NvimTreeGitNew', { fg = c.vscGitAdded, bg = 'NONE' })
 
     -- Bufferline
-    --hl(0, 'BufferLineIndicatorSelected', { fg = c.vscLeftDark, bg = 'NONE' })
-    --hl(0, 'BufferLineFill', { fg = 'NONE', bg = opts.transparent and c.vscBack or c.vscLeftDark })
+    hl(0, 'BufferLineIndicatorSelected', { fg = c.vscLeftDark, bg = 'NONE' })
+    hl(0, 'BufferLineFill', { fg = 'NONE', bg = opts.transparent and c.vscBack or c.vscLeftDark })
 
     -- BarBar
     hl(0, 'BufferCurrent', { fg = c.vscFront, bg = c.vscTabCurrent })
